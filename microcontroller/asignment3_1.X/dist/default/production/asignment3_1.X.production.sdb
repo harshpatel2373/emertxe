@@ -1,0 +1,103 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"4 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"10
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"12 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"24
+[v _run_train run_train `(v  1 e 1 0 ]
+"60
+[v _left_right_train left_right_train `(v  1 e 1 0 ]
+"84
+[v _alternate_nibble alternate_nibble `(v  1 e 1 0 ]
+"93
+[v _alernate_led alernate_led `(v  1 e 1 0 ]
+"101
+[v _main main `(v  1 e 1 0 ]
+"207 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"329
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1335
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1457
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"101 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"104
+[v main@flag flag `i  1 a 2 6 ]
+"108
+[v main@wait wait `ui  1 a 2 2 ]
+"105
+[v main@mode mode `i  1 a 2 0 ]
+"106
+[v main@key key `uc  1 a 1 5 ]
+"107
+[v main@cur_key cur_key `uc  1 a 1 4 ]
+"147
+} 0
+"24
+[v _run_train run_train `(v  1 e 1 0 ]
+{
+[v run_train@flag flag `i  1 p 2 0 ]
+"38
+[v run_train@direction_flag direction_flag `i  1 s 2 direction_flag ]
+"39
+[v run_train@set_on_flag set_on_flag `i  1 s 2 set_on_flag ]
+"57
+} 0
+"10 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@mode mode `uc  1 a 1 wreg ]
+[v read_digital_keypad@mode mode `uc  1 a 1 wreg ]
+"12
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"14
+[v read_digital_keypad@mode mode `uc  1 a 1 1 ]
+"33
+} 0
+"60 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\main.c
+[v _left_right_train left_right_train `(v  1 e 1 0 ]
+{
+[v left_right_train@flag flag `i  1 p 2 0 ]
+"70
+[v left_right_train@set_on_flag set_on_flag `i  1 s 2 set_on_flag ]
+"81
+} 0
+"12
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"22
+} 0
+"4 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"8
+} 0
+"84 C:\Users\rajjo\MPLABXProjects\asignment3_1.X\main.c
+[v _alternate_nibble alternate_nibble `(v  1 e 1 0 ]
+{
+[v alternate_nibble@flag flag `i  1 p 2 0 ]
+"90
+} 0
+"93
+[v _alernate_led alernate_led `(v  1 e 1 0 ]
+{
+[v alernate_led@flag flag `i  1 p 2 0 ]
+"99
+} 0
